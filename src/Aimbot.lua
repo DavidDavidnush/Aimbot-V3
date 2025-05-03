@@ -399,4 +399,9 @@ Environment.Load = Load -- ExunysDeveloperAimbot.Load()
 setmetatable(Environment, {__call = Load})
 
 return Environment
+local Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()
 Aimbot.Load()\
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()
+ExunysDeveloperAimbot()
+ExunysDeveloperAimbot.Load()
